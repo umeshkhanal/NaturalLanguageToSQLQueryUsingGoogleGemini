@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QueryPilot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Loading Spinner */
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      border-top: 4px solid #f87171; /* red-400 */
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Smooth Fade In */
+    .fade-in { animation: fadeIn 0.5s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+
+  <script>
+    document.getElementById("natural-language-query")?.addEventListener("keypress", function (event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        handleQuery();
+      }
+    });
+
+    async function handleQuery() {
+      const dbName = document.getElementById('db-select').value;
+      const userQuery = document.getElementById('natural-language-query').value.trim();
+
+      if (!userQuery || !dbName) {
+        alert("Please select a database and enter a query.");
+        return;
+      }
+
+      // Generate SQL Query
+      const sqlResponse = await fetch('/generate_sql', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user_query: userQuery, db_name: dbName })
+      });
+
+      const sqlData = await sqlResponse.json();
+      if (sqlData.error) {
+        alert("Error generating SQL: " + sqlData.error);
+        return;
+      }
+
+      // Display Generated SQL Query
+      document.getElementById('sql-section').style.display = "block";
+      document.getElementById('sql-query').value = sqlData.sql_query;
+
+      // Show Loading Animation for Results
+      document.getElementById('results-section').style.display = "block";
+      document.getElementById('results').innerHTML = `
+        <div class="flex flex-col items-center justify-center py-6 fade-in">
+          <div class="spinner"></div>
+          <div class="mt-2 text-gray-300">Fetching Query Result...</div>
+        </div>
+      `;
+
+      // Execute SQL Query
+      const executeResponse = await fetch('/execute_query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sql_query: sqlData.sql_query })
+      });
+
+      const resultsHtml = await executeResponse.text();
+      document.getElementById('results').innerHTML = resultsHtml;
+
+      // Implement "See More" Feature
+      setupTablePagination();
+    }
+
+    function setupTablePagination() {
+      const rows = document.querySelectorAll("#results table tbody tr");
+      const maxVisibleRows = 5;
+
+      if (rows.length > maxVisibleRows) {
+        rows.forEach((row, index) => {
+          if (index >= maxVisibleRows) row.style.display = "none";
+        });
+
+        const seeMoreBtn = document.createElement("button");
+        seeMoreBtn.innerText = "See More";
+        seeMoreBtn.className = "bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded mt-4 transition-all";
+        seeMoreBtn.onclick = () => {
+          rows.forEach(row => row.style.display = "table-row");
+          seeMoreBtn.remove();
+          setupSeeLess(rows, maxVisibleRows);
+        };
+
+        document.getElementById('results').appendChild(seeMoreBtn);
+      }
+    }
+
+    function setupSeeLess(rows, maxVisibleRows) {
+      const seeLessBtn = document.createElement("button");
+      seeLessBtn.innerText = "See Less";
+      seeLessBtn.className = "bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded mt-4 transition-all";
+      seeLessBtn.onclick = () => {
+        rows.forEach((row, index) => {
+          if (index >= maxVisibleRows) row.style.display = "none";
+        });
+        seeLessBtn.remove();
+        setupTablePagination();
+      };
+
+      document.getElementById('results').appendChild(seeLessBtn);
+    }
+  </script>
+
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 to-black text-white min-h-screen flex flex-col items-center justify-center p-6">
+  
+  <!-- Query Input Section -->
+  <div class="w-full max-w-3xl bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700">
+    <h1 class="text-3xl font-extrabold mb-4 text-center text-red-400">
+      QueryPilot 🚀
+    </h1>
+    <p class="text-gray-400 text-center mb-6">Use AI to generate SQL queries effortlessly</p>
+
+    <!-- Database selection -->
+    <div class="mb-4">
+      <label for="db-select" class="block mb-2">Select Database</label>
+      <select id="db-select" class="w-full p-2 bg-gray-700 text-white rounded focus:ring-2 focus:ring-red-400">
+        {% for db in databases %}
+        <option value="{{ db }}">{{ db }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <!-- Natural Language Query input -->
+    <div class="mb-4">
+      <label for="natural-language-query" class="block mb-2">Natural Language Query</label>
+      <input type="text" id="natural-language-query" class="w-full p-3 bg-gray-800 text-white rounded border border-gray-600 focus:ring-2 focus:ring-red-400" placeholder="Enter your query here">
+    </div>
+
+    <!-- Generate SQL Query button -->
+    <button type="button" onclick="handleQuery()" class="w-full bg-red-600 hover:bg-red-700 text-white p-3 rounded transition-all shadow-md">
+      Generate SQL Query
+    </button>
+  </div>
+
+  <!-- Generated SQL Query Display (Initially Hidden) -->
+  <div id="sql-section" class="w-full max-w-3xl bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700 mt-6" style="display: none;">
+    <h2 class="text-xl font-bold mb-4">Generated SQL Query</h2>
+    <textarea id="sql-query" rows="4" class="w-full p-3 bg-gray-800 text-white rounded border border-gray-600" readonly></textarea>
+  </div>
+
+  <!-- Query Results Display (Initially Hidden) -->
+  <div id="results-section" class="w-full max-w-3xl bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700 mt-6" style="display: none;">
+    <h2 class="text-xl font-bold mb-4">Query Results</h2>
+    <div id="results" class="overflow-x-auto p-2"></div>
+  </div>
+
+</body>
+</html>

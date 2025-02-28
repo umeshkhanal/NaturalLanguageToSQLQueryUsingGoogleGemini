@@ -1,0 +1,301 @@
+Book ID,Title,Author,ISBN,Publication Year,Available Copies
+1,Artificial Intelligence,Mark Morgan,978-0-209-61351-5,2013,4
+2,Networking,John Moody,978-0-7315-9994-3,1989,7
+3,Manufacturing Processes,Timothy Lee,978-1-5298-9987-0,1997,10
+4,Web Development,Elizabeth Mcmahon,978-0-325-17939-1,1996,1
+5,Machine Learning,Christopher Gutierrez,978-1-06-362927-8,1999,4
+6,Networking,Andrew Miller,978-1-186-80111-7,1986,5
+7,Digital Electronics,Krystal Bass,978-1-07-416269-6,2021,3
+8,Circuit Design,Carlos Ellis Jr.,978-0-04-460016-9,1981,5
+9,Thermodynamics,Carrie Huber,978-0-85750-078-6,2018,2
+10,Database Management,Charles Oconnor,978-1-116-65574-2,2014,6
+11,Robotics,Katherine Jackson,978-0-7020-0675-3,1993,6
+12,Database Management,Jacqueline Fisher,978-0-237-48103-2,2019,3
+13,Circuit Design,Kevin Gonzalez,978-0-8129-9636-4,2008,10
+14,Signal Processing,Glen Murphy,978-0-271-85870-8,1993,10
+15,Manufacturing Processes,David Rivera,978-1-100-07123-7,2014,3
+16,Fluid Mechanics,Mr. Corey Blair,978-1-74677-441-7,2018,5
+17,Signal Processing,Melissa Ray,978-0-309-55919-5,2017,1
+18,Fluid Mechanics,Ashley Nelson,978-1-112-19884-7,2003,5
+19,Manufacturing Processes,John Stout,978-1-85490-785-1,2018,5
+20,Embedded Systems,Rebecca Barnes,978-1-56744-010-2,2010,7
+21,Robotics,John Gonzalez,978-0-294-63261-3,1991,1
+22,Cloud Computing,Andrew Woods,978-0-7995-5659-9,2012,10
+23,Communication Systems,Dawn Mccormick,978-1-03-667115-0,1987,3
+24,Database Management,Richard Ward,978-0-477-16646-1,2016,8
+25,Web Development,Ray Ayala,978-0-8179-3439-2,2001,2
+26,Database Management,Emily Delgado,978-0-02-232882-5,2020,5
+27,Machine Learning,Tanner Young,978-1-02-400129-7,1999,4
+28,Machine Learning,Eric Vasquez,978-1-5175-2903-1,2001,10
+29,Thermodynamics,Aimee Bryant,978-1-279-40836-0,1990,7
+30,Data Analytics,Holly Thomas,978-0-7362-0274-9,1995,7
+31,Digital Electronics,Courtney Valdez,978-1-885790-31-6,1989,9
+32,Data Structures,Joshua Reed,978-0-85918-235-5,2009,6
+33,Data Structures,Bryan Kelly,978-1-4986-8780-5,2007,6
+34,Data Analytics,Kathryn Wu,978-0-580-46860-5,2019,10
+35,Embedded Systems,Joseph Warren,978-1-230-63488-3,2014,9
+36,Artificial Intelligence,Martin Elliott,978-0-8435-6005-3,2000,7
+37,Software Engineering,Jessica Morgan,978-0-535-77232-0,2022,7
+38,Data Structures,Kaitlin Hunt,978-0-00-492540-0,1992,8
+39,Artificial Intelligence,Melissa Perez,978-0-476-75803-2,1999,8
+40,Thermodynamics,Andrew Adams,978-1-77868-929-1,2014,1
+41,Fluid Mechanics,Jessica Lindsey,978-1-308-02822-4,1991,2
+42,Software Engineering,Julia Tran,978-1-317-86261-1,2010,1
+43,Fluid Mechanics,Amy Sims,978-0-460-50176-7,1995,3
+44,Machine Learning,Victoria Marks,978-0-9673207-7-9,2020,10
+45,Software Engineering,Lisa Henderson,978-1-85202-680-6,2003,1
+46,Communication Systems,Kevin Curry,978-0-02-593545-7,1980,8
+47,Networking,Gregory Campbell,978-0-302-16204-0,2019,9
+48,Algorithms,Mr. John Sanchez,978-1-313-29260-3,2019,3
+49,Software Engineering,Jillian Garcia,978-0-512-79550-2,1985,7
+50,Data Analytics,Sonia Mccoy,978-1-954070-28-8,1982,9
+51,Machine Learning,Christopher Flowers,978-0-9937263-3-0,2011,7
+52,Thermodynamics,Albert Rodriguez,978-0-569-03485-2,2023,9
+53,Algorithms,James Hernandez,978-1-5400-3280-5,2006,2
+54,Thermodynamics,Nathaniel Barton,978-0-01-765960-6,1986,8
+55,Data Analytics,Johnny Vega,978-0-275-18394-3,2018,5
+56,Communication Systems,Richard Johnson,978-0-01-076682-0,2012,10
+57,Data Structures,Scott Francis,978-0-12-829815-2,2020,8
+58,Cloud Computing,Pamela Gregory,978-1-222-26035-9,2018,8
+59,Digital Electronics,Kelly Ryan,978-0-400-11000-4,1990,4
+60,Communication Systems,George Curtis,978-0-501-84247-7,1982,2
+61,Digital Electronics,Dennis Montgomery,978-0-9750436-8-4,2002,5
+62,Signal Processing,Antonio Berg,978-1-132-44273-9,2007,2
+63,Machine Learning,William Rogers,978-1-308-78441-0,1997,10
+64,Networking,David King,978-1-298-34230-0,2018,4
+65,Data Analytics,Jeremiah Young,978-0-653-48994-0,1991,10
+66,Mechanical Design,Daryl Mcdowell,978-1-900456-34-0,2008,7
+67,Artificial Intelligence,Courtney Marshall,978-1-950365-13-5,2012,4
+68,Manufacturing Processes,Stephanie Chen,978-0-925599-21-6,1997,5
+69,Communication Systems,Heather Richardson,978-1-4369-3165-6,1993,2
+70,Artificial Intelligence,Heather Schwartz,978-1-196-67722-1,1998,8
+71,Signal Processing,Ms. Melinda Horn,978-1-4579-9791-4,2001,6
+72,Mechanical Design,Corey Johnson III,978-1-177-67057-9,2012,6
+73,Cloud Computing,Kathy Fox,978-0-490-88489-2,2013,10
+74,Data Analytics,Thomas Adams,978-0-924815-70-6,2003,5
+75,Cloud Computing,Wendy Gaines,978-1-246-24995-8,2004,9
+76,Thermodynamics,Holly Green,978-0-334-01152-1,2008,9
+77,Networking,Samantha Murphy,978-0-8178-8611-0,1983,8
+78,Data Analytics,Kelsey Ramirez,978-1-946170-80-4,2010,9
+79,Robotics,Mrs. Jacqueline Stark,978-0-15-275656-7,1996,9
+80,Robotics,Robert Matthews,978-0-02-594615-6,2001,1
+81,Machine Learning,Derrick Howell,978-1-5337-5597-1,1989,1
+82,Artificial Intelligence,Hannah Allen,978-0-08-340403-2,1991,10
+83,Database Management,David Dougherty,978-0-373-19427-8,1998,2
+84,Manufacturing Processes,Debbie Thompson,978-1-64160-841-1,2010,9
+85,Web Development,Danielle Salinas,978-0-17-048479-4,2017,3
+86,Software Engineering,Danny Smith,978-1-07-114510-4,2012,10
+87,Machine Learning,Virginia Kim,978-1-00-390428-1,2020,4
+88,Mechanical Design,Louis Young,978-1-244-78919-7,1989,7
+89,Robotics,John Bruce,978-1-878923-47-9,2012,9
+90,Robotics,David Reed,978-0-403-01416-3,1992,9
+91,Fluid Mechanics,Kathy Bates,978-1-70166-187-5,2009,3
+92,Digital Electronics,Scott Shaw,978-0-349-36534-3,2016,5
+93,Robotics,Jennifer Miller,978-1-09-922511-6,2022,6
+94,Thermodynamics,Anna Richardson,978-1-69104-333-0,2007,9
+95,Data Analytics,Patrick Smith MD,978-1-82051-202-7,2017,2
+96,Digital Electronics,Mariah Harper,978-1-182-64867-9,1980,5
+97,Networking,William Silva MD,978-0-928451-82-5,2019,6
+98,Artificial Intelligence,Barry Beard,978-0-7962-6962-1,2008,3
+99,Circuit Design,Vanessa Hernandez,978-1-60201-437-4,1999,7
+100,Machine Learning,Lisa Moore,978-0-668-84105-4,2013,6
+101,Digital Electronics,Mark Shaw,978-0-7377-7572-3,2005,8
+102,Mechanical Design,Lisa Harris,978-1-230-66234-3,2017,8
+103,Robotics,Amber Miller,978-1-275-93741-3,1980,6
+104,Database Management,Michael Hamilton,978-1-4143-3841-5,1999,5
+105,Embedded Systems,Mallory Collins,978-0-8216-8882-3,1986,5
+106,Embedded Systems,Jordan York,978-0-17-305800-8,2019,7
+107,Cloud Computing,Jennifer Ware,978-0-387-29613-5,1999,9
+108,Artificial Intelligence,Joel George,978-0-12-921425-0,1987,8
+109,Cloud Computing,Aaron Peters,978-1-08-582143-8,1980,1
+110,Signal Processing,Cody Martinez,978-1-880297-05-6,2006,1
+111,Manufacturing Processes,Pamela Gomez,978-1-309-60427-4,2020,6
+112,Mechanical Design,Robert Ibarra,978-1-114-67676-3,1990,2
+113,Circuit Design,James Adams,978-1-911938-47-7,1996,1
+114,Algorithms,Sarah Robinson,978-1-139-43758-5,2015,9
+115,Communication Systems,Jose Bowers,978-0-584-81816-1,2023,8
+116,Embedded Systems,Alyssa Johnson,978-1-76338-638-9,2000,8
+117,Signal Processing,Madison Goodwin,978-1-286-91521-9,2018,1
+118,Cloud Computing,Andrea Brown,978-0-06-723613-0,2015,3
+119,Signal Processing,Meredith Little,978-0-7911-9820-9,1987,2
+120,Thermodynamics,Kevin Estrada MD,978-0-322-01820-4,2006,6
+121,Thermodynamics,Laura Galvan,978-1-179-38207-4,2000,4
+122,Circuit Design,Terry Pierce,978-0-85453-745-7,1993,7
+123,Artificial Intelligence,Justin Cisneros,978-1-09-854961-9,1981,7
+124,Manufacturing Processes,Phillip Giles,978-0-513-30883-1,1991,6
+125,Software Engineering,Robert Kim,978-1-160-82349-4,2016,5
+126,Manufacturing Processes,Zachary Everett,978-1-204-57159-6,1991,4
+127,Robotics,Erik Henry,978-0-17-403552-7,2005,5
+128,Machine Learning,Courtney Wyatt,978-0-212-37300-0,1989,1
+129,Communication Systems,Colin Eaton,978-1-58310-977-9,1982,7
+130,Thermodynamics,Mark Watkins,978-0-11-903223-9,2012,9
+131,Signal Processing,Nathaniel Henderson,978-1-379-14491-5,1996,6
+132,Robotics,Dustin Price,978-0-475-59061-9,2012,2
+133,Thermodynamics,Mrs. Tiffany Henry DDS,978-0-285-98195-9,2012,6
+134,Networking,Alison Norris,978-0-7710-7283-3,2003,10
+135,Communication Systems,Ronnie Howard,978-1-5297-8357-5,2005,8
+136,Digital Electronics,Jennifer Ramirez,978-0-235-39172-2,2012,3
+137,Thermodynamics,Stephanie Arellano,978-0-906494-17-2,1995,1
+138,Artificial Intelligence,Jonathan Young,978-0-234-67862-6,2023,2
+139,Mechanical Design,Nicole Smith,978-0-15-539756-9,1987,1
+140,Thermodynamics,Michael Miller,978-1-5266-6309-2,2004,2
+141,Circuit Design,Richard Smith,978-0-11-789779-3,2008,6
+142,Data Structures,John Spencer,978-1-4803-7338-9,2021,4
+143,Cloud Computing,Richard Jones,978-0-545-62474-9,2022,3
+144,Web Development,Deanna Dixon,978-1-873563-49-6,2005,3
+145,Mechanical Design,Ashley Ryan,978-1-69997-937-2,2012,7
+146,Artificial Intelligence,Rebekah Howard,978-0-03-762710-4,1983,9
+147,Software Engineering,Samuel Dawson,978-0-9948532-6-4,2023,7
+148,Web Development,Eugene Singleton,978-1-303-74180-7,2004,4
+149,Database Management,Douglas Carr,978-0-08-507824-8,1991,9
+150,Digital Electronics,Daniel Wilson,978-1-5308-3910-0,2016,4
+151,Database Management,William Combs,978-0-7204-7262-2,1989,3
+152,Networking,Kristi Savage,978-1-78138-616-3,2022,3
+153,Signal Processing,James Lee,978-0-7223-1517-0,2021,5
+154,Data Analytics,Craig Warner,978-0-89553-775-1,1984,10
+155,Database Management,Richard Coleman,978-0-11-186901-7,2006,2
+156,Thermodynamics,Amy Williams,978-0-10-490628-6,1992,1
+157,Machine Learning,Gregory Johnson,978-1-149-97182-6,1989,2
+158,Data Structures,Warren Owens,978-1-153-72838-6,2007,8
+159,Signal Processing,Travis Young,978-1-4587-4608-5,1996,1
+160,Communication Systems,Jennifer Hall,978-1-83629-433-7,1983,6
+161,Algorithms,Tammy Clark,978-0-85983-996-9,2008,9
+162,Software Engineering,Zachary Carter,978-0-409-69023-1,2015,6
+163,Thermodynamics,Samantha Burton,978-0-406-67060-1,1985,10
+164,Data Analytics,Charles Brown,978-1-883144-63-0,1996,9
+165,Artificial Intelligence,Diane Castillo,978-0-263-95200-1,1986,5
+166,Thermodynamics,Gloria Johnson,978-1-81311-736-9,1989,4
+167,Database Management,Richard Lambert,978-0-533-64980-8,1986,4
+168,Fluid Mechanics,Susan Huerta,978-1-235-72087-1,1994,4
+169,Database Management,Cheryl Davidson,978-1-357-64368-3,2001,10
+170,Communication Systems,Dylan Tyler,978-1-4732-7195-1,1993,1
+171,Digital Electronics,David Baker,978-1-153-82707-2,2016,6
+172,Manufacturing Processes,Nathan Sparks,978-1-63110-826-6,1993,4
+173,Algorithms,Carrie Garcia,978-0-05-576017-3,2005,6
+174,Manufacturing Processes,Regina Gross,978-1-79267-046-6,1991,5
+175,Data Analytics,Shannon Wood,978-0-85196-132-3,2003,3
+176,Embedded Systems,Sarah Richards,978-1-56544-916-9,2002,2
+177,Digital Electronics,Charles Davis,978-1-5385-5280-3,2002,4
+178,Robotics,Michael Gray,978-0-7254-7509-3,1990,9
+179,Software Engineering,Charles Smith,978-0-9708514-1-3,1993,9
+180,Artificial Intelligence,Lisa Burnett,978-1-138-21323-4,1984,7
+181,Signal Processing,Jacqueline Sims,978-0-631-36268-5,2019,9
+182,Manufacturing Processes,Brandon Allen,978-1-84058-088-4,1995,8
+183,Communication Systems,Angela Martin,978-0-450-44369-5,2010,2
+184,Circuit Design,Lisa Jordan,978-1-5467-2066-9,2009,2
+185,Software Engineering,Nicholas Collier,978-1-156-88098-2,2017,10
+186,Signal Processing,Patrick Moore,978-0-08-904938-1,1992,7
+187,Database Management,Jeffrey Long,978-1-316-83402-2,1986,9
+188,Robotics,Michael Burke,978-1-56559-277-3,1987,7
+189,Thermodynamics,Shannon Khan,978-0-7657-5567-4,2012,8
+190,Fluid Mechanics,Laura Smith,978-0-03-322230-3,1990,6
+191,Data Analytics,Gregory Lopez MD,978-1-63427-743-3,1998,3
+192,Networking,Alexandria Rosales,978-0-461-53098-8,2001,6
+193,Fluid Mechanics,Nathan Chang,978-0-87010-172-4,2009,7
+194,Manufacturing Processes,Jacob Crawford,978-0-00-851916-2,1992,5
+195,Manufacturing Processes,Linda Reyes,978-1-00-292754-0,2022,1
+196,Circuit Design,Savannah Johnson,978-1-107-87852-5,2008,10
+197,Algorithms,Dawn Miller,978-1-02-203628-4,1988,7
+198,Artificial Intelligence,Denise Peck,978-1-137-02633-0,1991,3
+199,Communication Systems,Sarah Watson,978-0-234-44627-0,2016,4
+200,Signal Processing,Timothy Vega,978-0-04-145724-7,2021,4
+201,Data Analytics,Ryan Knox,978-1-354-03305-0,2022,1
+202,Data Analytics,Lynn Williams,978-1-61161-912-6,2011,8
+203,Machine Learning,Lindsay Montgomery,978-0-12-127796-3,1993,5
+204,Artificial Intelligence,Cynthia Beck,978-1-143-34946-1,1990,6
+205,Manufacturing Processes,Derek Cooke,978-0-17-088326-9,2008,5
+206,Fluid Mechanics,Elizabeth Lopez,978-0-446-45465-0,2011,5
+207,Algorithms,Katherine Randall,978-0-231-28521-6,1990,3
+208,Embedded Systems,Christopher Gonzalez,978-1-256-26646-4,2002,9
+209,Signal Processing,Dean Nelson,978-0-570-18393-8,2002,7
+210,Circuit Design,Charles Diaz,978-1-70325-607-9,1990,9
+211,Software Engineering,Adam Torres,978-1-65504-108-2,1981,8
+212,Digital Electronics,Jennifer Tucker,978-0-7259-7845-7,1996,4
+213,Networking,Mary Lopez,978-1-181-72357-5,1980,4
+214,Digital Electronics,Melissa Wright,978-0-89987-928-4,2004,1
+215,Algorithms,Raymond Christensen,978-0-305-69210-0,1981,6
+216,Machine Learning,Jason Herring,978-0-8309-5276-2,1983,4
+217,Software Engineering,Mrs. Alicia Williams,978-0-568-20063-0,2004,3
+218,Robotics,Paige Jones,978-1-278-97994-6,1984,8
+219,Circuit Design,Charles Reed,978-1-79877-053-5,2004,7
+220,Fluid Mechanics,Tara Daniels,978-1-84759-497-6,1985,3
+221,Algorithms,Laurie Wells,978-1-4463-5152-9,1983,8
+222,Networking,Lance Parsons,978-0-246-40387-2,1988,9
+223,Database Management,James Doyle,978-1-891045-52-3,2001,3
+224,Manufacturing Processes,Patricia Bell,978-1-71137-431-4,2018,5
+225,Machine Learning,Jason Garcia,978-1-69429-502-6,2010,3
+226,Web Development,Victoria Gilmore,978-0-460-34727-3,1981,7
+227,Mechanical Design,Danielle Harris,978-0-14-047419-0,2023,8
+228,Digital Electronics,Gabriela Freeman,978-0-211-90535-6,2015,9
+229,Communication Systems,Antonio Reed,978-0-9914883-2-2,2013,7
+230,Fluid Mechanics,Christy Meyer,978-0-86425-292-0,2009,5
+231,Circuit Design,Andrea Combs,978-0-452-12518-6,1985,1
+232,Fluid Mechanics,Tonya Kennedy,978-0-89026-214-6,1997,3
+233,Data Analytics,Jose Graham,978-1-4181-0334-7,2014,6
+234,Software Engineering,Joseph Park,978-1-209-07069-8,2015,8
+235,Embedded Systems,Joshua Chapman,978-0-358-30274-2,2002,1
+236,Machine Learning,Karen Bolton,978-0-86026-765-2,2004,8
+237,Cloud Computing,Lauren Garcia,978-1-4180-0133-9,2004,1
+238,Digital Electronics,Cory Santos,978-0-590-94525-7,2008,1
+239,Data Analytics,Heather Chen,978-1-68292-771-7,2010,5
+240,Robotics,Jennifer Walters,978-1-172-24123-1,2016,8
+241,Embedded Systems,Matthew Smith,978-1-349-81545-6,2002,2
+242,Circuit Design,Megan Patterson,978-1-4316-8166-2,2001,3
+243,Machine Learning,Marcus Baker,978-1-03-953017-1,2011,3
+244,Artificial Intelligence,Andrew Wagner,978-1-70086-228-0,2009,3
+245,Circuit Design,Natasha Livingston,978-0-14-771490-9,1983,9
+246,Machine Learning,Angela Giles,978-1-4398-0759-0,2003,2
+247,Fluid Mechanics,Sheri Bauer,978-1-76648-594-2,1986,5
+248,Cloud Computing,Jason Summers,978-1-928598-04-6,2000,8
+249,Thermodynamics,Jordan Gilbert,978-0-416-74171-1,2020,2
+250,Communication Systems,Molly Martinez,978-0-8256-2181-9,1993,10
+251,Fluid Mechanics,Daniel Sanders,978-0-229-08104-2,1990,3
+252,Digital Electronics,Matthew Knight,978-1-4418-3527-7,2012,2
+253,Thermodynamics,Leslie Stewart,978-0-05-461061-5,1980,3
+254,Software Engineering,Julie Lynn,978-1-57164-861-7,1999,4
+255,Embedded Systems,Jennifer Cook,978-1-7355854-8-2,2004,10
+256,Fluid Mechanics,David Bray,978-0-260-56467-2,2002,10
+257,Communication Systems,Matthew Gutierrez,978-1-277-43213-8,1996,7
+258,Mechanical Design,Dale Mercer,978-1-219-75632-2,2018,5
+259,Signal Processing,David Nguyen,978-1-141-29299-8,2015,10
+260,Software Engineering,Daniel Gordon,978-0-310-09328-2,2023,3
+261,Mechanical Design,Kelsey Clark,978-0-8398-4273-6,2015,10
+262,Embedded Systems,Tyler Carroll,978-0-397-39698-6,2008,3
+263,Robotics,Deanna Lee,978-0-662-56453-9,2003,8
+264,Embedded Systems,Cristian Warner MD,978-0-437-18160-2,1980,10
+265,Digital Electronics,Alejandra Vega,978-1-83796-728-5,1991,5
+266,Web Development,Wendy Smith,978-0-06-784612-4,1992,8
+267,Manufacturing Processes,Rachel Allen,978-1-270-90504-2,2023,7
+268,Machine Learning,Timothy Chavez,978-0-392-69399-8,2018,7
+269,Data Structures,Michael Nolan,978-0-389-76858-6,2018,10
+270,Data Structures,Joseph Johnson,978-1-377-44703-2,1992,1
+271,Machine Learning,Daniel Buck,978-1-377-89251-1,1987,4
+272,Thermodynamics,Shane Webb,978-1-4598-4859-7,2023,5
+273,Mechanical Design,Gregory Craig,978-0-7289-1822-1,1983,1
+274,Machine Learning,David Lopez,978-0-440-27705-7,2023,10
+275,Mechanical Design,Sharon Baldwin,978-0-580-00206-9,2002,7
+276,Networking,Gregory Paul,978-0-8482-9285-0,1999,10
+277,Circuit Design,Kelsey White,978-1-78373-985-1,2021,9
+278,Fluid Mechanics,Aaron Roach,978-0-7544-2070-5,2019,8
+279,Cloud Computing,Jamie Thomas,978-0-453-19244-6,1996,3
+280,Manufacturing Processes,Dr. Austin Finley,978-0-539-06164-2,1989,5
+281,Circuit Design,Dr. James Evans,978-0-249-65748-7,2009,3
+282,Digital Electronics,Rebecca Mcknight,978-0-7204-3289-3,1996,9
+283,Robotics,William Richards,978-1-75997-679-2,1985,10
+284,Cloud Computing,Charles Fields,978-1-227-67223-2,2016,5
+285,Data Analytics,Christopher Thomas,978-1-81243-773-4,2010,2
+286,Database Management,Wendy Perez,978-0-11-588709-3,1995,4
+287,Algorithms,Patrick Lyons,978-1-71562-645-7,2000,9
+288,Data Analytics,Juan Johnson,978-0-05-444764-8,1991,9
+289,Mechanical Design,Chase Bennett,978-1-65520-821-8,2009,1
+290,Manufacturing Processes,Amy Colon,978-1-325-18409-5,1981,1
+291,Cloud Computing,James Camacho,978-0-09-887741-8,2016,5
+292,Circuit Design,Christopher Gray,978-0-87712-784-0,1980,9
+293,Mechanical Design,James Fischer,978-0-419-05529-7,2009,4
+294,Circuit Design,Chelsea Martin,978-0-08-951457-5,2006,9
+295,Communication Systems,Maria Simmons,978-0-415-41529-3,1991,5
+296,Mechanical Design,Raymond Browning,978-0-486-56363-3,1998,8
+297,Communication Systems,Adam Bass,978-0-17-827504-2,1982,5
+298,Data Structures,John Woodward,978-1-85628-130-0,2003,1
+299,Mechanical Design,Andrew Reynolds,978-0-608-70010-6,2012,1
+300,Artificial Intelligence,Joanne Gibson,978-1-4613-2381-5,2012,9

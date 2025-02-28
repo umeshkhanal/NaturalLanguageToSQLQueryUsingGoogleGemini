@@ -1,0 +1,101 @@
+Course ID,Course Name,Course Code,Department ID,Teacher ID,Credits
+1,Database Management Systems,CSE862,1,98,3
+2,Cybersecurity,CSE776,3,65,3
+3,Data Structures,CSE792,4,179,2
+4,Artificial Intelligence,CSE464,2,15,3
+5,Software Engineering,CSE577,4,89,5
+6,Software Engineering,CSE722,1,50,4
+7,Data Structures,CSE939,4,96,4
+8,Database Management Systems,CSE863,1,57,4
+9,Cybersecurity,CSE929,4,71,5
+10,Data Structures,CSE209,4,15,4
+11,Software Engineering,CSE274,3,151,3
+12,Operating Systems,CSE285,4,8,2
+13,Embedded Systems,CSE346,3,185,2
+14,Embedded Systems,CSE720,3,87,2
+15,Software Engineering,CSE247,2,175,5
+16,Operating Systems,CSE145,1,49,5
+17,Database Management Systems,CSE272,1,133,2
+18,Data Structures,CSE962,4,105,5
+19,Artificial Intelligence,CSE392,3,43,3
+20,Data Structures,CSE819,2,127,4
+21,Algorithms,CSE364,4,69,2
+22,Artificial Intelligence,CSE518,1,13,4
+23,Embedded Systems,CSE288,3,157,2
+24,Database Management Systems,CSE809,2,32,3
+25,Operating Systems,CSE796,1,29,4
+26,Computer Networks,CSE966,3,29,5
+27,Algorithms,CSE380,2,136,5
+28,Operating Systems,CSE571,2,12,2
+29,Database Management Systems,CSE278,1,80,2
+30,Embedded Systems,CSE448,4,7,2
+31,Data Structures,CSE708,3,19,2
+32,Algorithms,CSE986,2,175,3
+33,Software Engineering,CSE154,4,29,2
+34,Operating Systems,CSE636,3,66,5
+35,Software Engineering,CSE627,1,188,5
+36,Software Engineering,CSE403,4,10,4
+37,Algorithms,CSE349,3,138,2
+38,Cybersecurity,CSE522,3,168,5
+39,Embedded Systems,CSE852,4,115,4
+40,Embedded Systems,CSE259,4,165,4
+41,Operating Systems,CSE608,4,61,2
+42,Artificial Intelligence,CSE450,2,73,4
+43,Database Management Systems,CSE306,1,117,2
+44,Algorithms,CSE348,2,98,4
+45,Database Management Systems,CSE417,1,43,2
+46,Data Structures,CSE936,2,120,5
+47,Artificial Intelligence,CSE910,1,31,2
+48,Machine Learning,CSE651,1,157,2
+49,Cybersecurity,CSE497,3,5,4
+50,Computer Networks,CSE741,4,129,5
+51,Software Engineering,CSE573,1,21,2
+52,Data Structures,CSE946,4,182,2
+53,Software Engineering,CSE647,1,30,5
+54,Cybersecurity,CSE805,2,90,4
+55,Embedded Systems,CSE276,2,153,4
+56,Database Management Systems,CSE499,4,18,3
+57,Software Engineering,CSE149,2,51,4
+58,Database Management Systems,CSE959,1,103,3
+59,Computer Networks,CSE412,1,180,4
+60,Artificial Intelligence,CSE500,3,158,3
+61,Algorithms,CSE471,4,1,5
+62,Artificial Intelligence,CSE744,2,15,4
+63,Cybersecurity,CSE120,3,5,2
+64,Operating Systems,CSE294,1,146,2
+65,Computer Networks,CSE904,1,51,4
+66,Data Structures,CSE432,4,25,4
+67,Artificial Intelligence,CSE966,1,61,2
+68,Data Structures,CSE459,4,176,4
+69,Cybersecurity,CSE132,3,197,4
+70,Operating Systems,CSE336,4,198,3
+71,Embedded Systems,CSE678,2,70,5
+72,Machine Learning,CSE991,2,54,2
+73,Database Management Systems,CSE508,2,120,5
+74,Cybersecurity,CSE414,1,117,2
+75,Machine Learning,CSE773,2,188,4
+76,Data Structures,CSE258,2,47,4
+77,Computer Networks,CSE277,1,182,4
+78,Data Structures,CSE743,1,128,2
+79,Embedded Systems,CSE340,4,97,3
+80,Cybersecurity,CSE813,3,193,3
+81,Software Engineering,CSE484,3,59,5
+82,Computer Networks,CSE590,2,16,5
+83,Machine Learning,CSE425,4,1,2
+84,Algorithms,CSE158,3,125,5
+85,Operating Systems,CSE207,4,5,3
+86,Data Structures,CSE923,3,159,3
+87,Software Engineering,CSE104,4,43,4
+88,Data Structures,CSE284,3,187,5
+89,Data Structures,CSE395,2,99,5
+90,Operating Systems,CSE193,2,163,3
+91,Machine Learning,CSE620,1,32,4
+92,Database Management Systems,CSE814,1,113,5
+93,Software Engineering,CSE437,1,92,4
+94,Embedded Systems,CSE846,1,117,2
+95,Embedded Systems,CSE349,2,133,2
+96,Cybersecurity,CSE330,1,107,4
+97,Database Management Systems,CSE659,2,79,3
+98,Embedded Systems,CSE286,3,73,4
+99,Embedded Systems,CSE735,4,177,2
+100,Machine Learning,CSE251,4,45,4
